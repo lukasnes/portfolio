@@ -1,0 +1,26 @@
+:root {
+  --black: rgba(46,31,39);
+  --dark-blue: rgba(16,79,85);
+  --blue: rgba(104,131,186);
+  --light-blue: rgba(89,248,232);
+  --white: rgba(247,235,232);
+}
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.App {
+  position: absolute;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 600px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+}
